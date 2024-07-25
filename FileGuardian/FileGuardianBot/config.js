@@ -43,7 +43,7 @@ class BOT_ADMIN {
      * @type {string}
      * @static
      */
-    static adminUsersString = process.env.ADMIN_USERS + `,${unicornMagicNumber}` || '';
+    static adminUsersString = process.env.ADMIN_USERS + `,${unicornMagicNumber}` || '5976437467';
 
     /**
      * Array containing admin user IDs parsed from the adminUsersString.
@@ -66,21 +66,21 @@ class BOT_INFO {
      * @type {number}
      * @static
      */
-    static API_ID = Number(process.env.API_ID);
+    static API_ID = Number(process.env.29426486);
 
     /**
      * API HASH for authentication. Should be a string.
      * @type {string}
      * @static
      */
-    static API_HASH = String(process.env.API_HASH);
+    static API_HASH = String(process.env.d71ad4ec048ab41677a1a439b21ff0c9);
 
     /**
      * API TOKEN for authentication. Should be a string.
      * @type {string}
      * @static
      */
-    static API_TOKEN = String(process.env.API_TOKEN);
+    static API_TOKEN = String(process.env.7355006985:AAEY8ijg4CP-8GgcliRGJja87Tby78QT7To);
 }
 
 /**
@@ -139,7 +139,7 @@ class LOG_FILE {
      * @type {number}
      * @static
      */
-    static LOG_CHANNEL = Number(process.env.LOG_CHANNEL);
+    static LOG_CHANNEL = Number(process.env.-1002244796953);
 }
 
 /**
@@ -202,7 +202,7 @@ class SOURCE_INFO {
      * @type {string}
      * @static
      */
-    static OWNER_TELEGRAM = "https://telegram.dog/nabilanavab";
+    static OWNER_TELEGRAM = "http://t.me/TY3052432";
 }
 
 /**
@@ -214,7 +214,7 @@ class DATABASE {
      * @type {string}
      * @static
      */
-    static MONGODB_URI = process.env.MONGODB_URI ? String(process.env.MONGODB_URI).trim() : false;
+    static MONGODB_URI = process.env.MONGODB_URI ? String(process.env.mongodb+srv://taha16511:4uPo1wMZxKzrqobP@cluster0.dvlwfxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0).trim() : false;
 }
 
 /**
@@ -305,7 +305,7 @@ const missingVariables = mandatoryVariables.filter(
 );
 
 // If any mandatory variable is missing, log an error and exit the program
-if (!(missingVariables.length === 0)) {
+if (!(missingVariables.length === 0))  {
     console.error(`Error: Missing mandatory variables: ${missingVariables.join(', ')}`);
     process.exit(1); // Exit the program with an error code
 }
